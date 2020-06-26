@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.shilianyiliao.study_touchevent.Level1ViewGroup
+        android:layout_centerInParent="true"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:background="@color/colorPrimary">
+
+        <com.shilianyiliao.study_touchevent.Level2ViewGroup
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:background="@color/colorAccent"
+            android:layout_centerInParent="true">
+            <com.shilianyiliao.study_touchevent.Level3View
+                android:background="#E12C2C"
+                android:layout_centerInParent="true"
+                android:layout_width="200dp"
+                android:layout_height="200dp"/>
+        </com.shilianyiliao.study_touchevent.Level2ViewGroup>
+    </com.shilianyiliao.study_touchevent.Level1ViewGroup>
+
+</RelativeLayout>
